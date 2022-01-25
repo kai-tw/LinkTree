@@ -1,5 +1,5 @@
 body {
-	margin: 5em auto 0;
+	margin: 5em 3em 0 auto;
 	max-width: 400px;
 	font: 16px/1.7 'Noto Sans TC', sans-serif;
 }
@@ -91,12 +91,11 @@ a:hover {
 	display: block;
 	width: 70px;
 	height: 70px;
-	background: url(images/hexagon.png) center/contain no-repeat;
 	transition: all .2s ease;
 }
 .social-media .icon img {
 	display: block;
-	padding: .4em;
+	padding: 1em;
 	width: 100%;
 	height: 100%;
 	box-sizing: border-box;
