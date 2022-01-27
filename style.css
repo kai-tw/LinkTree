@@ -19,7 +19,7 @@ a:hover {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: url(images/art-6626881.png) center/cover no-repeat;
+	background: url(images/art-6626881.png) right/cover no-repeat;
 	z-index: -1;
 }
 
@@ -52,6 +52,7 @@ a:hover {
 	border-top: 3em solid transparent;
 	border-right: 3em solid rgb(255 182 182 / 75%);
 	transform: translate(-100%, 0);
+	transition: all .2s ease;
 }
 
 .note-block:after {
@@ -63,6 +64,9 @@ a:hover {
 	border-left: 3em solid rgb(255 255 255 / 75%);
 	border-bottom: 3em solid transparent;
 	transform: translate(100%, 0);
+}
+.note-block:hover:before {
+	transform: translate(-125%, 0);
 }
 
 .avatar-icon {
