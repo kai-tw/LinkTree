@@ -1,5 +1,8 @@
 body {
-	margin: 5em 3em 0 auto;
+	margin-top: 5em;
+	margin-left: auto;
+	margin-right: 3em;
+	margin-bottom: 5em;
 	max-width: 400px;
 	font: 16px/1.7 'Noto Sans TC', sans-serif;
 }
@@ -114,4 +117,10 @@ a:hover {
 	display: block;
 	padding: 2em;
 	text-decoration: none;
+}
+@media screen and (max-width: 406px) {
+	body {
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
